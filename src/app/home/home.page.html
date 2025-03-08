@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>
+        MobileAppCourse
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">MobileAppCourse</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <div id="container">
+      <strong>Camera Plugin</strong>
+      <ion-button (click)="takePicture()" class="ion-padding">Take Picture</ion-button>
+    </div>
+  </ion-content>
+  
+</body>
+</html>
